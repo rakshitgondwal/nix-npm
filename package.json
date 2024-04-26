@@ -1,0 +1,16 @@
+{
+  "name": "nix-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node ./bin/index.js",    
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "hello-cli": "./bin/hello.js"
+  }
+}
