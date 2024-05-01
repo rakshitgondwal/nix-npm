@@ -21,13 +21,9 @@
         };
       });
   in {
-    packages = forEachSupportedSystem ({ pkgs, stdenv }:{
+    packages = forEachSupportedSystem ({ pkgs }:{
       default = pkgs.callPackage ./default.nix {
-        inherit stdenv;
         inherit buildNodeModules;
-        inherit lib;
-        inherit nodejs;
-        inherit npmHooks;
       };
     });
   };
