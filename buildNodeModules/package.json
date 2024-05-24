@@ -8,9 +8,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node ./bin/index.js"
   },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "axios": "^1.3.0",
+    "lodash": "^4.17.21",
+    "winston": "^3.3.3"
+  },
   "author": "",
   "license": "ISC",
   "bin": {
-    "hello-cli": "./bin/hello.js"
+    "hello-cli": "./bin/index.js"
   }
 }
